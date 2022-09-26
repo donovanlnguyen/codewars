@@ -6,8 +6,12 @@
 // one argument animal which corresponds to the animal encountered by the frog. 
 // If this one is an alligator (case-insensitive) return small otherwise return wide
 function mouthSize(animal) {
-    if(animal === "alligator"){
+    if(animal === "alligator" || animal === "ALLIGATOR"){
       return "small"
     }else
       return "wide"
   }
+
+//   function mouthSize(animal) {
+//     return animal.toLowerCase() == 'alligator' ? 'small' : 'wide';
+//   }
