@@ -8,3 +8,5 @@ function numberToPower(number, power){
     }
     return result
   }
+
+//   const numberToPower = (number,power) => power > 0 ? number * numberToPower(number,power-1) : 1;
