@@ -2,4 +2,7 @@
 // Passing a parameter n (default=1) will return the first n element(s) of the sequence.
 
 
-// If n == 0 return an empty sequence []
+// If n == 0 return an empty sequence [] 
+function first(arr, n) {
+    // return arr;
+  }
