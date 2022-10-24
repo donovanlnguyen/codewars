@@ -3,6 +3,10 @@
 
 
 // If n == 0 return an empty sequence [] 
-function first(arr, n) {
-    // return arr;
+function first(arr, n = 1) {
+    if(n == 0){
+      return []
+    }else if(n > 0){
+      return arr.slice(0, n)
+    }
   }
