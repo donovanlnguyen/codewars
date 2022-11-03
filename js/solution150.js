@@ -10,6 +10,11 @@
 // VAT is always 15% for the purposes of this Kata.
 // Round the result to 2 decimal places.
 // If null value given then return -1
+//return price without vat
 function excludingVatPrice(price){
-    return +(price / 1.15).toFixed(2)
+    let original = +(price / 1.15).toFixed(2)
+    if( price == null){
+      return -1
+    }else
+      return original
   }
