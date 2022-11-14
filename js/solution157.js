@@ -6,3 +6,5 @@ function isPalindrome(x) {
     }else
       return false
   }
+
+  const isPalindrome = x => x.toLowerCase().split('').reverse().join('') == x.toLowerCase();
