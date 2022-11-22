@@ -4,3 +4,5 @@
 function none(arr, fun){
     return !arr.some(fun)
   }
+
+//   const none = (arr, fun) => !arr.some(fun);
