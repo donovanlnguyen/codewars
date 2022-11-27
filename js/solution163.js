@@ -15,5 +15,6 @@
 // how you arrange them, you will never find a way to satisfy the equation a2 + b2 = c2
 // For JavaScript: return true or false
 function isPythagoreanTriple(integers) {
-    // Good luck friends!
+    let [a, b, c] = integers.sort((a,b) => a - b)
+    return a **2 + b **2 == c**2
   }
