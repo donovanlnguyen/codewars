@@ -18,3 +18,13 @@ function isPythagoreanTriple(integers) {
     let [a, b, c] = integers.sort((a,b) => a - b)
     return a **2 + b **2 == c**2
   }
+
+//   const isPythagoreanTriple = (arr) => {
+  
+//     const [a, b, c] = arr.sort((a, b) => a - b)
+//     const a2 = a * a;
+//     const b2 = b * b;
+//     const c2 = c * c;
+//     return a2 + b2 === c2;
+    
+//   };
