@@ -11,3 +11,7 @@ function saleHotdogs(n){
     }else
       return n * 90
   }
+
+//   function saleHotdogs(n){
+//     return n*(n<5?100:n<10?95:90);
+//   }
