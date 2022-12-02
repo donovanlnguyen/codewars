@@ -5,3 +5,8 @@
 // // In this kata you will be given a positive integer, val and you have to create 
 // the function next_pal()(nextPal Javascript) that will output the smallest palindrome 
 // number higher than val.
+
+function nextPal(val) {
+    while ([...String(++val)].reverse().join('') != val);
+      return val
+}
