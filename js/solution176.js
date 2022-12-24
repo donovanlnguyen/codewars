@@ -34,3 +34,5 @@ var hotpo = function(n){
 //       return hotpo(n%2==0 ? n/2 : 3*n+1, acc+1);
 //     }
 //   }
+
+// const hotpo = n => n === 1 ? 0 : 1 + hotpo(n % 2 ? (n * 3 + 1) : n / 2);
