@@ -7,3 +7,7 @@ function checkForFactor (base, factor) {
     }else
       return false
   }
+
+//   function checkForFactor (base, factor) {
+//     return base % factor === 0;
+//   }
