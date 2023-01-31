@@ -5,3 +5,12 @@
 function sumOfIntegersInString(s){
     return s.replace(/\D/g, ' ').split(' ').reduce((acc, curr) => acc + Number(curr), 0)
  }
+
+//  function sumOfIntegersInString(s){
+//     const searchNumber = s.split(/[^0-9]/gi)
+//     let total = 0
+//     for (let i = 0; i < searchNumber.length; i++) {
+//       total += Number(searchNumber[i])
+//     }
+//     return total
+//   }
