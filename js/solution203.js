@@ -6,3 +6,16 @@
 
 // hammingDistance('100101', '101001') == 2
 // hammingDistance('1010', '0101') == 4
+function hammingDistance (a, b) {
+	let dist = 0;
+  for(let i = 0; i < a.length; i += 1){
+    if(a[i] !== b[i]){
+      dist += 1
+    }
+  }
+  return dist
+}
+
+// function hammingDistance(a,b){
+//     return a.split('').filter((n, i) => n != b[i]).length;
+//   }
