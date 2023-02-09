@@ -7,4 +7,26 @@
 // Note: The output array should be sorted alphabetically by key name.
 
 // Good Luck!
+function convertHashToArray(hash){
+    let result = []
+    for(let i in hash){
+      result.push([i,hash[i]])
+    }
+    for(let i =0; i < result.length; i++) {
+      for (let j= i +1; j < result.length; j++){
+        if(result[i] > result[j]) {
+          [result[i],result[j]] = [result[j],result[i]]
+        }
+      }
+    }
+    return result
+  }
 
+//   const convertHashToArray = o => Object.entries(o).sort();
+
+// function convertHashToArray(hash){
+//     let result = [];
+//     Object.keys(hash).sort().map(item => result.push([item,hash[item]]));
+//     return result;
+//   }
+  
