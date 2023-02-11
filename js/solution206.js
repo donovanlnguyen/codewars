@@ -6,3 +6,7 @@
 // Here are some examples of this:
 
 // Examples for 0<k<5
+
+function countPixels(k){
+    return Math.max(11,8*k+2)
+  }
