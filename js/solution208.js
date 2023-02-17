@@ -5,3 +5,7 @@
 // Solve("*'&ABCDabcde12345") = [4,5,5,3]. 
 // --the order is: uppercase letters, lowercase, numbers and special 
 // characters.
+
+function solve(s){
+    //..
+   }
