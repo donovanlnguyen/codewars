@@ -11,3 +11,7 @@ function uniTotal (string) {
 //     }
 //     return count;
 //   }
+
+// function uniTotal(string) {
+//     return Array.prototype.reduce.call(string, (a, c) => a + c.charCodeAt(0), 0);
+//   }
