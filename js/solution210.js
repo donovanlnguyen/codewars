@@ -11,3 +11,12 @@
 // Return false for invalid numbers too (e.g volume or side is less than or equal to 0).
 
 // Note: side will be an integer
+
+var cubeChecker = function(volume, side){
+    if(volume <= 0){
+      return false
+      }else if(volume === side*side*side){
+        return true
+      }else 
+        return false
+    };
