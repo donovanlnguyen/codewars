@@ -13,3 +13,7 @@ function mango(quantity, price){
     }else
       return (quantity * price) - (price * (Math.floor(quantity/3)))
   }
+
+//   function mango(quantity, price){
+//     return price * (quantity - Math.floor(quantity / 3));
+//   }
