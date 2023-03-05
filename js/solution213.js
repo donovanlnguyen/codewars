@@ -15,3 +15,20 @@
 // that accepts one parameter raceName and returns "Welcome to Planet Earth 
 // raceName". For example, if the race name is "Martians", it should say 
 // "Welcome to Planet Earth Martians"
+
+class Person {
+    constructor(firstName = 'John',lastName = 'Doe',age = 0,gender = 'Male'){
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.age = age;
+      this.gender = gender;
+    }
+    sayFullName(){
+      return `${this.firstName} ${this.lastName}`;
+    }
+  
+  }
+  
+  Person.greetExtraTerrestrials = function(raceName){
+        return `Welcome to Planet Earth ${raceName}`;
+  };
