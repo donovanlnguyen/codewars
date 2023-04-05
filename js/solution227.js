@@ -3,3 +3,16 @@
 // You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
 
 // Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+var maxProfit = function(prices) {
+    let maxProfit = 0
+
+    for(let buyPrice = 0; buyPrice < prices.length; buyPrice++){
+    
+    for(let sellPrice = buyPrice + 1; sellPrice < prices.length; sellPrice++){
+        let profit = prices[sellPrice] - prices[buyPrice]
+
+        maxProfit = Math.max(maxProfit, profit)
+    }
+    }
+    return maxProfit
+};
