@@ -30,3 +30,17 @@ var getIntersectionNode = function(headA, headB) {
     }
     return len;
   };
+
+  // var getIntersectionNode = function(headA, headB) {
+  //   if (!headA || !headB) return null;  
+  
+  //   var nowA = headA;
+  //   var nowB = headB;
+  
+  //   while (nowA !== nowB) {
+  //     nowA = nowA ? nowA.next : headB;
+  //     nowB = nowB ? nowB.next : headA;
+  //   }
+  
+  //   return nowA;
+  // };
