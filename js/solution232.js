@@ -4,3 +4,6 @@
 // The input for each function is the output of the previous function 
 // (except the first function, which takes the starting value as its input). 
 // Return the final value after execution is complete.
+function chain(input, fs) {
+    return fs.reduce(function(input, fn) { return fn(input) }, input)
+  }
