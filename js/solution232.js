@@ -7,3 +7,9 @@
 function chain(input, fs) {
     return fs.reduce(function(input, fn) { return fn(input) }, input)
   }
+
+//   function chain(x, fns) {
+//     return fns.reduce(function(x, fn) {
+//       return fn(x)
+//     }, x)
+//   }
