@@ -7,3 +7,17 @@ const helloWorld = () => {
   };
 
 //   var helloWorld=_=>/Hello, World!/.source
+
+// const helloWorld = () => {
+//     var d = String.fromCharCode(100);
+//     var l = String.fromCharCode(108);
+//     var e = String.fromCharCode(101);
+//     var r = String.fromCharCode(114);
+//     var H = String.fromCharCode(72);
+//     var W = String.fromCharCode(87);
+//     var o = String.fromCharCode(111);
+//     var comma = String.fromCharCode(44);
+//     var blank = String.fromCharCode(32);
+//     var exclamation = String.fromCharCode(33);
+//     return H + e + l + l + o + comma + blank + W + o + r + l + d + exclamation;
+// };
