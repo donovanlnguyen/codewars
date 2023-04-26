@@ -14,3 +14,10 @@ function periodIsLate(last, today, cycleLength)
 {
  return Math.floor(today.getTime() - last.getTime()) / 86400000 > cycleLength
 }
+
+// var _MS_PER_DAY = 1000 * 60 * 60 * 24;
+
+// function periodIsLate(last, today, cycleLength)
+// {
+//   return Math.floor((today - last) / _MS_PER_DAY) > cycleLength;
+// }
