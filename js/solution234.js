@@ -21,3 +21,7 @@ function periodIsLate(last, today, cycleLength)
 // {
 //   return Math.floor((today - last) / _MS_PER_DAY) > cycleLength;
 // }
+
+// function periodIsLate(last, today, c){
+//     return (last.setDate(last.getDate()+c),last<today)
+//   }
