@@ -4,3 +4,6 @@
 
 // Write a function that takes the website date/time in its original string format and returns the shortened format.
 
+function shortenToDate(longDate) {
+    return longDate.split(',')[0]
+  }
