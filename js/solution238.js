@@ -8,3 +8,6 @@
 
 // The output should be a string.
 // The coefficient and exponent is always a positive integer.
+function integrate(coefficient, exponent) {
+  
+}
