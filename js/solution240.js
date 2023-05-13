@@ -10,5 +10,6 @@
 // 1 Mile = 1.609344 kilometres
 
 function converter (mpg) {
-  //code to convert miles per imperial gallon to kilometers per liter
-}
+    let kpl = ((mpg * 1.6093444)/4.54609188)
+    return parseFloat(kpl.toFixed(2))
+  }
