@@ -10,6 +10,6 @@
 // 1 Mile = 1.609344 kilometres
 
 function converter (mpg) {
-    let kpl = ((mpg * 1.6093444)/4.54609188)
-    return parseFloat(kpl.toFixed(2))
+    let kpl = (mpg / 4.54609188 * 1.609344)
+    return Math.round(kpl * 100)/100
   }
