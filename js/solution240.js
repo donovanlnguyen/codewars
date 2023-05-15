@@ -13,3 +13,7 @@ function converter (mpg) {
     let kpl = (mpg / 4.54609188 * 1.609344)
     return Math.round(kpl * 100)/100
   }
+
+//   function converter (mpg) {
+//     return +(mpg * .354006043538).toFixed(2)
+//   }
