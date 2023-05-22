@@ -12,3 +12,13 @@
 // Edge case: Base-1 is also used in this kata to represent the unary numeral system. Think of it as a system of tally marks. For example:
 // 3 (decimal) -> ||| (unary)
 // 5 (decimal) -> ||||| (unary)
+
+function reverseNumber(n, b) {
+    if (b === 1n) return n;
+    let res = 0n;
+    while (n > 0n) {
+      res = res * b + n % b;
+      n /= b;
+    }
+    return res;
+  }
