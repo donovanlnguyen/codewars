@@ -5,5 +5,8 @@
 
 // Good luck!
 const sumSquareEvenRootOdd = ns => {
-    // your code goes here
+    // looping over array
+    // square
+    // square root
+    // 2 decimal places
   };
