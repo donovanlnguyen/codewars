@@ -5,8 +5,12 @@
 
 // Good luck!
 const sumSquareEvenRootOdd = ns => {
-    // looping over array
-    // square
-    // square root
-    // 2 decimal places
+    let result = []
+    for(let i of ns){
+      if(i % 2 === 0){
+        result.push(i**2)
+      }else
+        result.push(i**0.5)
+    }
+    return +result.reduce((a, n) => a + n).toFixed(2)
   };
