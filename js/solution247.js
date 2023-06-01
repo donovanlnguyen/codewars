@@ -13,3 +13,7 @@
 // Do not concern yourself with the imperfections inherent in dividing by 
 // floating point numbers, as your answer will be rounded. Also, for the sake of 
 // simplicity, Julie is never the same age as her brother.
+
+function age(x, y){
+    return x / (y - 1) + x
+ }
