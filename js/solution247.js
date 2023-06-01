@@ -17,3 +17,5 @@
 function age(x, y){
     return x / (y - 1) + x
  }
+
+//  age=(x,y)=>x*y/(y-1)
