@@ -23,5 +23,5 @@ Array.range = function(start, count) {
 //   Array.prototype.sum = function() {
 //     return this.reduce(function(prev, next) {
 //       return prev + next;
-//     }, 0);
+//     }, 0)
 //   }
