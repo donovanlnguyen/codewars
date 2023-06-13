@@ -5,3 +5,11 @@
 // Array.sum() return the sum of all numbers in the array Example: [0, 1, 2].sum() returns 3 Example: Array.range(-1,4).sum() should return 2
 
 // While not forbidden try to write both function without using a for loop
+
+Array.range = function(start, count) {
+    return Array.from({ length: count }, (_, index) => start + index)
+  }
+  
+  Array.prototype.sum = function() {
+    return this.reduce((a,b)=>a+b,0);
+  }
