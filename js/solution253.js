@@ -8,3 +8,7 @@
 // eliminateUnsetBits("111") ->  7
 // eliminateUnsetBits("1000000") -> 1
 // eliminateUnsetBits("000") -> 0
+
+function eliminateUnsetBits(number) {
+    return parseInt(number.replace(/0/g,'') || 0, 2)
+  }
