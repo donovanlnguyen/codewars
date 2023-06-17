@@ -57,3 +57,27 @@ function tapCodeTranslation(text) {
             'z':'..... .....'};
     return text.split('').map(a=>o[a]).join(' ');
   }
+
+//   function tapCodeTranslation(text) {
+//     const dic = [['A', 'B', 'C', 'D', 'E'],
+//                  ['F', 'G', 'H', 'I', 'J'],
+//                  ['L', 'M', 'N', 'O', 'P'],
+//                  ['Q', 'R', 'S', 'T', 'U'],
+//                  ['V', 'W', 'X', 'Y', 'Z']];
+     
+//        let out = '';
+//        const arr = [...text.toUpperCase()];
+//        arr.map( el => {
+//            if ( el === 'K' ) el = 'C';
+           
+//            for ( let i = 0; i < dic.length; i++ ) {
+//                for ( let j = 0; j < dic.length; j++) {
+//                    if ( dic[i][j] == el ) {
+//                        out += (`${'.'.repeat(i + 1)} ${'.'.repeat(j + 1)} `);
+//                        break;
+//                    }
+//                }
+//            }
+//        })
+//        return out.trim();
+//    }
