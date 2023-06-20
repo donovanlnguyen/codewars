@@ -17,3 +17,25 @@
 
 // The middle character(s) of the word represented as a string.
 
+function getMiddle(s){
+    let length = s.length
+    if(length < 2){
+      return s
+    }
+    
+    if(length % 2) {
+      for(let i = 0; i < length; i++){
+        if(i == (length - 1) / 2){
+          return s[i]
+        }
+      }
+    } else {
+      for(let i = 0; i < length; i++){
+        if(i == (length)/ 2){
+          return s[i -1] + s[i]
+      }
+    }
+   }   
+  }
+  
+
