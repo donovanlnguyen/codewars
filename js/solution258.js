@@ -12,3 +12,7 @@
 function friend(friends){
     return friends.filter(word => word.length === 4)
   }
+
+//   function friend(friends){
+//     return friends.filter(n => n.length === 4)
+//   }
