@@ -14,3 +14,12 @@
 // Ask f questions
 // Give the correct array according to the answers
 // The array will always be 3 or longer than 3.
+
+function guess(f, length){
+    const res = Array(length);
+    res[0] = (f(0,1) + f(0,2) - f(1,2)) / 2;
+    for(let i = 1; i < length; i++){
+      res[i] = f(i-1, i) - res[i - 1];
+    }
+    return res;
+  }
