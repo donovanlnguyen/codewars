@@ -20,3 +20,5 @@
 //  8     2    2    0
 //  9     0    0    1
 // Given a number, return an array, containing 3 integers, each representing the number of hands raised by each person at that step, starting from 0.
+
+const getPositions = (s) => [Math.floor(s % 3), Math.floor(s / 3) % 3, Math.floor(s / 9) % 3];
