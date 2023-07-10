@@ -18,3 +18,12 @@
 
 // Input range:
 // 1 <= area <= 5 x 10 ^ 10
+
+function minimumPerimeter(area) {
+    for(let i = Math.sqrt(area) | 0; i > 0; i--) {
+    if(area % i == 0){
+      return 2 * (i + area/ i)
+      }
+    }
+  }
+  
