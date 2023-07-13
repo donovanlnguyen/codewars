@@ -17,3 +17,7 @@
 // "xxYxx" and w = 1      -->  4
 // "xxxxYxYx" and w = 5   -->  3
 // "xxxxxYxYx" and w = 2  -->  5
+
+ function waterbombs(fire, w) {
+   return fire.split('Y').reduce((a, b) => a + Math.ceil(b.length / w), 0);
+ }
