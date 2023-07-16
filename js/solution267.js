@@ -10,3 +10,6 @@
 // # multiplicands, but only two 1's in the product
 // Create a function that can receive two 'fangs' and determine if the product of the two is a valid vampire number.
 
+function vampireTest(a, b) {
+    return (''+a+b).split('').sort().join() == (a*b+'').split('').sort().join();
+  }
