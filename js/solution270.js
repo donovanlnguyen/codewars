@@ -13,3 +13,6 @@
 // center('a', 3)  # returns " a "
 // center('abc', 10, '_')  # returns "____abc___"
 // center('abcdefg', 2)  # returns "abcdefg"
+function center (strng, width, fill = ' ') {
+    return '';
+  }
