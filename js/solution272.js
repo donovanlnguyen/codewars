@@ -65,3 +65,12 @@ function growingPlant(upSpeed, downSpeed, desiredHeight) {
     
     
   }
+
+//   function growingPlant(upSpeed, downSpeed, desiredHeight) {  
+//     var i = 1;
+//     for (var height = upSpeed; height < desiredHeight; height = height + upSpeed){
+//       height = height - downSpeed;
+//       i++;   
+//     }
+//     return i;
+//   }
