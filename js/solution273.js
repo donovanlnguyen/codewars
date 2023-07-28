@@ -13,3 +13,10 @@
 // Also check out my other creations — Naming Files, Elections: Weighted Average, Identify Case, Split Without Loss, Adding Fractions, Random Integers, Implement String#transpose, Implement Array#transpose!, Arrays and Procs #1, and Arrays and Procs #2.
 
 // If you notice any issues or have any suggestions/comments whatsoever, please don't hesitate to mark an issue or just comment. Thanks!
+function keepOrder(ary, val ,i) {
+    for(i = 0; i < ary.length; i++){
+      if(val <= ary[i])
+        break
+    }
+    return i
+  }
