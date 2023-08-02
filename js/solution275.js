@@ -5,3 +5,13 @@
 // Write a function where you will win the game if your numbers can spell "BINGO". 
 // They do not need to be in the right order in the input array. Otherwise you will lose. 
 // Your outputs should be "WIN" or "LOSE" respectively.
+
+const bingo = (arr) => [2, 9, 14, 7, 15].every((value) => arr.includes(value)) ? 'WIN' : 'LOSE';
+
+// function bingo(a) {
+//     let n = [2,9,14,7,15]
+//     for(let i =0; i< n.length;i++){
+//     if(!a.includes(n[i])){ return 'LOSE' }
+//     }
+//     return 'WIN'
+//   }
