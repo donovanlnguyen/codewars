@@ -21,3 +21,7 @@
 // As part of this puzzle, there is three hints or clues on solving this. I won't tell you what the other two are, but one of them is: Don't overthink it. It is a simple solution 
 
 // Given the input as a string - Return the sum of the two variables as int.
+
+function theVar(theVariables) {
+    return theVariables.charCodeAt(0) + theVariables.charCodeAt(2) - 2 * 96;
+  }
