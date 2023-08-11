@@ -17,3 +17,7 @@
 // (the only-positive or only-negative integer may appear more than once)
 
 // Good luck!
+
+function solve(arr){
+    //..
+};
