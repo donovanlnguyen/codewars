@@ -24,3 +24,5 @@ function solve(arr) {
   }
 
 //   const solve=a=>a.find(e=>!a.includes(-e));
+
+// const solve = array => array.find(value => !array.includes(-value))
