@@ -13,3 +13,11 @@
 // Constraints: a ≤ b ≤ 100.
 
 // [output] an integer
+
+function rangeBitCount(a, b) {
+    let result = 0
+    for (let i = a; i <= b; i++) {
+      result += i.toString(2).split('1').length -1
+    }
+    return result
+  }
