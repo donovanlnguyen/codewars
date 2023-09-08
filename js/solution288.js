@@ -5,3 +5,7 @@
 // The interesting part of this task is that you have to do it without string operation (hey, it's not really interesting otherwise)
 
 // ;)
+
+function hammingWeight(x){
+    return x ? x % 2 + hammingWeight(x >> 1) : x
+  }
