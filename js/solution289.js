@@ -13,3 +13,7 @@
 // On Earth, a single rotation around the sun takes 365.25 days. Therefore, each year takes 365 days but every forth year is a leap year and takes 366 days. The next leap year on Earth will occur in 2020.
 
 // Notes: To make things easier, the period of the leap years will always be a power of 2. Good luck!
+
+function isLeapYear(duration, year) {
+    return false;
+  }
