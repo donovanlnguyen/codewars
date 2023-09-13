@@ -15,5 +15,5 @@
 // Notes: To make things easier, the period of the leap years will always be a power of 2. Good luck!
 
 function isLeapYear(duration, year) {
-    return false;
-  }
+  return duration * year % 1 == 0
+}
