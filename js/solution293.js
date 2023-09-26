@@ -10,3 +10,7 @@
 // You cannot use if statements, and you cannot use the ternary operator ? :.
 
 // In fact the word if and the character ? are not allowed in your code
+
+function noIfsNoButs(a, b) {
+    return 'a is greater than b';
+  }
