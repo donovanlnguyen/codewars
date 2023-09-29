@@ -28,3 +28,8 @@ function noIfsNoButs(a, b) {
 //       case 0: return `${a} is equal to ${b}`;
 //     }
 //   }
+
+// const noIfsNoButs = (a, b) =>
+//   a < b && `${a} is smaller than ${b}` ||
+//   a > b && `${a} is greater than ${b}` ||
+//   `${a} is equal to ${b}`
