@@ -15,3 +15,7 @@
 // Note:
 
 // Please return an array
+
+function scoreboard(string) {
+    // code here!
+  }
