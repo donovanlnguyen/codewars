@@ -15,3 +15,14 @@
 const [x, y] = a.reduce((p, a, i) => a == b[i] ? p : (++p[a > b[i] ? 0 : 1], p), [0, 0]);
   const m = (x == y) ? 'that looks like a "draw"! Rock on!' : (x > y) ? 'Alice made "Kurt" proud!' : 'Bob made "Jeff" proud!';
   return `${x}, ${y}: ${m}`;
+
+  // function solve(a, b) {
+  //   let [x, y] = [0,0];
+  //   for (let i = 0; i < 3; i++) {
+  //     if (a[i] > b[i]) x++;
+  //     else if (a[i] < b[i]) y++;
+  //   }
+  //   if (x > y) return `${x}, ${y}: Alice made "Kurt" proud!`;
+  //   else if (x < y) return `${x}, ${y}: Bob made "Jeff" proud!`;
+  //   else return `${x}, ${y}: that looks like a "draw"! Rock on!`;
+  // }
